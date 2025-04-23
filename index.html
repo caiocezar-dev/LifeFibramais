@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LifeFibra+</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="topo">
+    <div class="container">
+      <div class="logo">
+        <img src="img/Logo_LifeFibra+_em_Destaque-removebg-preview.png" alt="LifeFibra+" />
+      </div>
+      <div class="topo-direita">
+        <div class="contato-topo">
+          <a href="tel:81900000000"><i class="fas fa-phone"></i> (81)2011-5527</a>
+          <a href="https://wa.me/558120115527" class="whatsapp-btn"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+        </div>
+        <div class="menu-btn">
+          <span></span><span></span><span></span>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="#">Principal</a></li>
+            <li><a href="#planos">Planos Fibra</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Fale Conosco</a></li>
+            <li><a href="#cliente">Área do Cliente</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- BANNER CARROSSEL -->
+  <section class="banner-carousel">
+    <div class="slide ativo" style="background-image:url('img/testebanner1.png')"></div>
+    <div class="slide"           style="background-image:url('img/testebanner2.png')"></div>
+    <div class="slide"           style="background-image:url('img/testebanner2.png')"></div>
+    <button class="seta-banner esquerda" aria-label="Anterior">&lt;</button>
+    <button class="seta-banner direita"  aria-label="Próximo">&gt;</button>
+  </section>
+
+  <!-- PLANOS -->
+  <section id="planos" class="planos">
+    <div class="container">
+      <h2>Nossos Planos</h2>
+      <div class="cards-planos-wrapper">
+        <button class="seta-planos esquerda" aria-label="Anterior">&lt;</button>
+        <div class="cards-planos">
+          <div class="card">
+            <h3>200 Mega</h3>
+            <p>Wi-Fi Grátis</p>
+            <p>Instalação Grátis</p>
+            <strong>R$ 79,90/mês</strong>
+            <a href="#contato" class="btn-assinar">Assinar</a>
+          </div>
+          <div class="card">
+            <h3>400 Mega</h3>
+            <p>Wi-Fi Grátis</p>
+            <p>Instalação Grátis</p>
+            <strong>R$ 99,90/mês</strong>
+            <a href="#contato" class="btn-assinar">Assinar</a>
+          </div>
+          <div class="card">
+            <h3>700 Mega</h3>
+            <p>Wi-Fi Grátis</p>
+            <p>Instalação Grátis</p>
+            <strong>R$ 129,90/mês</strong>
+            <a href="#contato" class="btn-assinar">Assinar</a>
+          </div>
+          <div class="card">
+            <h3>1 Giga</h3>
+            <p>Wi-Fi Grátis</p>
+            <p>Instalação Grátis</p>
+            <strong>R$ 149,90/mês</strong>
+            <a href="#contato" class="btn-assinar">Assinar</a>
+          </div>
+          <div class="card">
+            <h3>2 Giga</h3>
+            <p>Plano Ultra Premium</p>
+            <p>Suporte VIP</p>
+            <strong>R$ 249,90/mês</strong>
+            <a href="#contato" class="btn-assinar">Assinar</a>
+          </div>
+        </div>
+        <button class="seta-planos direita" aria-label="Próximo">&gt;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <h2>Sobre a LifeFibra+</h2>
+      <p>Somos um provedor de internet focado em estabilidade, velocidade e atendimento humanizado. Conectamos pessoas e empresas com qualidade, instalação gratuita e suporte técnico dedicado.</p>
+    </div>
+  </section>
+
+  <!-- CLIENTE -->
+  <section id="cliente" class="area-cliente">
+    <div class="container">
+      <h2>Central do Cliente</h2>
+      <div class="atalhos">
+        <a href="#">2ª Via de Boleto</a>
+        <a href="#">Solicitar Visita Técnica</a>
+        <a href="#">Teste de Velocidade</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="contato">
+    <div class="container">
+      <h2>Solicite uma Ligação</h2>
+      <form>
+        <input type="text"   name="nome"     placeholder="Seu nome completo" required />
+        <input type="tel"    name="telefone" placeholder="Telefone com DDD"   required />
+        <input type="email"  name="email"    placeholder="Seu e-mail"            />
+        <input type="text"   name="horario"  placeholder="Melhor horário"         />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 LifeFibra+. Todos os direitos reservados.</p>
+      <div class="redes">
+        <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
